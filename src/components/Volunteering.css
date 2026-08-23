@@ -1,0 +1,189 @@
+.volunteering { background: var(--bg-secondary); }
+
+.vol__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+  align-items: start;
+}
+
+.vol__block {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+}
+.vol__block:last-child { margin-bottom: 0; }
+
+.vol__block-title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Positions of responsibility */
+.vol__pos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.vol__pos-card {
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.vol__pos-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.vol__pos-icon {
+  font-size: 1.4rem;
+  width: 42px;
+  height: 42px;
+  background: rgba(108,99,255,0.1);
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.vol__pos-role {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+
+.vol__pos-org {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+}
+
+.vol__pos-points {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.vol__pos-point {
+  display: flex;
+  align-items: flex-start;
+  gap: 9px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.vol__dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+  flex-shrink: 0;
+  margin-top: 7px;
+}
+
+/* Volunteering table */
+.vol__table {
+  padding: 0;
+  overflow: hidden;
+}
+
+.vol__table-head {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 18px;
+  background: rgba(108,99,255,0.08);
+  border-bottom: 1px solid var(--border);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.vol__table-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 11px 18px;
+  border-bottom: 1px solid var(--border);
+  transition: background 0.2s;
+}
+.vol__table-row:last-child { border-bottom: none; }
+.vol__table-row:hover { background: rgba(255,255,255,0.02); }
+
+.vol__table-event {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.vol__table-role {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+
+/* Soft skills */
+.vol__soft-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.vol__soft-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 7px 14px;
+  border-radius: 100px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  transition: all 0.2s;
+}
+.vol__soft-pill:hover {
+  border-color: rgba(108,99,255,0.4);
+  color: var(--accent);
+  background: rgba(108,99,255,0.07);
+}
+
+/* Hobbies */
+.vol__hobbies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 9px;
+}
+
+.vol__hobby-pill {
+  font-size: 0.82rem;
+  font-weight: 500;
+  padding: 6px 14px;
+  border-radius: 100px;
+  background: rgba(236,72,153,0.07);
+  border: 1px solid rgba(236,72,153,0.2);
+  color: #f472b6;
+}
+
+.vol__right {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .vol__grid { grid-template-columns: 1fr; }
+}
