@@ -69,7 +69,7 @@ export const featuredProject = {
     "Improved record accuracy",
     "Paperless workflow",
   ],
-  github: "#", // Replace with actual GitHub URL
+  github: "https://github.com/Nehaarun7/MINI-PROJECT-S6",
   liveDemo: "#", // Replace with actual live URL if deployed
 };
 
