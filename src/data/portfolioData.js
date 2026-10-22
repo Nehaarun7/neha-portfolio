@@ -74,14 +74,30 @@ export const featuredProject = {
 };
 
 export const otherProjects = [
-  // Add more projects here. Example structure:
-  // {
-  //   title: "Project Title",
-  //   description: "Project description goes here.",
-  //   techStack: ["React", "Node.js"],
-  //   github: "#",
-  //   liveDemo: "#",
-  // },
+  {
+    title: "Hostel Leave Management System",
+    description:
+      "A web-based system to manage hostel leave and mess cut using QR code verification. Students apply for leave online and generate a QR code; wardens scan it to approve or verify requests — eliminating paperwork and streamlining the entire workflow.",
+    techStack: ["Python", "MySQL", "HTML", "CSS"],
+    github: "https://github.com/Nehaarun7/MINI-PROJECT-S6",
+    liveDemo: "#",
+  },
+  {
+    title: "Vamanan GPT",
+    description:
+      "An AI-powered conversational assistant built and deployed on Vercel. Vamanan GPT provides an interactive chat experience using modern AI capabilities.",
+    techStack: ["React", "JavaScript", "Vercel"],
+    github: "#",
+    liveDemo: "https://vamanan.vercel.app/",
+  },
+  {
+    title: "Spotify Shampoo",
+    description:
+      "A fun web project inspired by Spotify's UI, built and deployed on Vercel.",
+    techStack: ["HTML", "CSS", "JavaScript"],
+    github: "#",
+    liveDemo: "https://spotify-shampoo.vercel.app/",
+  },
 ];
 
 export const marketingJourney = [
