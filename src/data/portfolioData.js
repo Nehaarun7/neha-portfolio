@@ -75,14 +75,6 @@ export const featuredProject = {
 
 export const otherProjects = [
   {
-    title: "Hostel Leave Management System",
-    description:
-      "A web-based system to manage hostel leave and mess cut using QR code verification. Students apply for leave online and generate a QR code; wardens scan it to approve or verify requests — eliminating paperwork and streamlining the entire workflow.",
-    techStack: ["Python", "MySQL", "HTML", "CSS"],
-    github: "https://github.com/Nehaarun7/MINI-PROJECT-S6",
-    liveDemo: "#",
-  },
-  {
     title: "Vamanan GPT",
     description:
       "An AI-powered conversational assistant built and deployed on Vercel. Vamanan GPT provides an interactive chat experience using modern AI capabilities.",
